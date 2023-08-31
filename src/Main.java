@@ -20,11 +20,9 @@ public class Main {
 
         int speed = 60;
         if (speed < 61) {
-            System.out.println("Если скорость меньше 61, то можно ездить спокойно");
-        }
-        int speed1 = 160;
-        if (speed1 >= 61) {
-            System.out.println("Если скорость больше 61, придется заплатить штраф ");
+            System.out.println("Скорость меньше 61,  можно ездить спокойно");
+        } else {
+            System.out.println("Скорость больше 61, придется заплатить штраф ");
         }
 
 
