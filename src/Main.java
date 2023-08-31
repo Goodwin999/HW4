@@ -2,13 +2,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        int age = 18;
+        int age = 17;
         if (age >= 18) {
-            System.out.println("Если возраст человека равен " + age + " или больше, он совершеннолетний");
-        }
-        int age1 = 17;
-        if (age1 < 18) {
-            System.out.println("Если возраст члеовека равен меньше " + age + " он не достиг совершеннолетия, нужно немного подождать");
+            System.out.println("Если возраст человека равен 18 или больше, он совершеннолетний");
+        } else {
+            System.out.println("Он не достиг совершеннолетия, нужно немного подождать");
         }
 
 
