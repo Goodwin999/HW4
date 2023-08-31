@@ -40,18 +40,12 @@ public class Main {
         int ageChild = 8;
         if (ageChild < 5) {
             System.out.println("Если возраст ребенка равен " + ageChild + " то он не может кататься на аттракционе ");
-        } else {
-            System.out.println("Ребенок может кататься со взрослым ");
         }
         if (ageChild > 5 && ageChild < 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + " то ему можно кататься на аттракционе в сопровождении взрослого ");
-        } else {
-            System.out.println(" Если возраст ребенка равен " + ageChild + " то он не может кататься на аттракционе ");
         }
-        if (ageChild > 14) {
-            System.out.println(" Если возраст ребенка равен " + ageChild + " то он может кататься без сопровождения ");
-        } else {
-            System.out.println("Если возраст ребенка равен " + ageChild + " то ему можно кататься на аттракционе в сопровождении взрослого");
+        if (ageChild >= 14) {
+            System.out.println("Можно кататься без сопровождения ");
         }
 
 
